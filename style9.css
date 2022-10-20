@@ -1,0 +1,343 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: black;
+}
+Text{
+    font-size: 29px;
+    text-align: center;
+    font-weight: bold;
+}
+Refs{
+    font-size: 20px;
+}
+.InputType::placeholder{
+    color: #837f7f;
+}
+.InputType:hover{
+    opacity: 0.9;
+    padding: 19px;
+}
+.InputType:active {
+    background-color: #0f0707;
+    color:#ffffff;
+}
+.InputType:invalid{
+    border: 2px solid red;
+}
+@media screen and (max-width: 1700px){
+    h1 {
+        text-align: center;
+        font-size: 45px;
+        color:rgb(229, 47, 47);
+    }
+    hr {
+        margin: 0 15% 0 15%;
+        max-width: 800px;
+        color: #000000;
+        border-style: inset;
+        border-width: 3px;
+        border-color: black;
+        width: 70%;
+    }
+    .button{
+        color: #fff;
+        font-size: 30px;
+        padding: 15px 30px;
+        background-color: rgb(115, 15, 15);
+        border-radius: 10px;
+        border: 1px solid;
+        border-color: rgb(255, 0, 0);
+        display:block;
+        margin: 0 auto;
+    }
+    .button:hover{
+        opacity: 0.9;
+        transition: 1s;
+        background-color: rgb(75, 0, 0);
+        font-size: 27px;
+        display: block;
+        margin: 0 auto;
+    }
+    .InputType{
+        font-size: 25px;
+        padding: 16px;
+        text-align: center;
+        background-color: rgb(59, 59, 59);
+        border-radius: 10px;
+        border: 1px solid;
+        border-color: rgb(0, 0, 0);
+        color: #ffffff;
+        width: 550px;
+        display: block;
+        margin: auto;
+    }
+    .container{
+        display: box;
+        border: 3px solid red;
+        padding: 70px;
+        margin: 0 400px;
+        background: rgb(210, 210, 210);
+        box-shadow: 0 -200px 100px -100px rgb(127, 126, 126) inset;
+        animation: background 5s infinite alternate;
+    }
+    @keyframes background{
+        50%{
+            background: rgb(127, 130, 131);
+            box-shadow: 0 -200px 100px -100px rgb(215, 219, 203) inset;
+        }
+    }
+}
+@media screen and (max-width: 1400px){
+    h1 {
+        text-align: center;
+        font-size: 30px;
+        color:rgb(229, 47, 47);
+    }
+    hr {
+        margin: 0 15% 0 15%;
+        max-width: 800px;
+        color: #000000;
+        border-style: inset;
+        border-width: 3px;
+        border-color: black;
+        width: 70%;
+    }
+    .button{
+        color: #fff;
+        font-size: 30px;
+        padding: 15px 30px;
+        background-color: rgb(115, 15, 15);
+        border-radius: 10px;
+        border: 1px solid;
+        border-color: rgb(255, 0, 0);
+        display:block;
+        margin: 0 auto;
+    }
+    .button:hover{
+        opacity: 0.9;
+        transition: 1s;
+        background-color: rgb(75, 0, 0);
+        font-size: 27px;
+        display: block;
+        margin: 0 auto;
+    }
+    .InputType{
+        font-size: 18px;
+        padding: 10px;
+        text-align: center;
+        background-color: rgb(59, 59, 59);
+        border-radius: 10px;
+        border: 1px solid;
+        border-color: rgb(0, 0, 0);
+        color: #ffffff;
+        width: 550px;
+        display: block;
+        margin: auto;
+    }
+    .container{
+        display: box;
+        border: 3px solid red;
+        padding: 70px;
+        margin: 0 300px;
+        background: rgb(210, 210, 210);
+        box-shadow: 0 -200px 100px -100px rgb(127, 126, 126) inset;
+        animation: background 5s infinite alternate;
+    }
+    @keyframes background{
+        50%{
+            background: rgb(127, 130, 131);
+            box-shadow: 0 -200px 100px -100px rgb(215, 219, 203) inset;
+        }
+    }
+}
+@media screen and (max-width: 1280px){
+    h1 {
+        text-align: center;
+        font-size: 30px;
+        color:rgb(229, 47, 47);
+    }
+    hr {
+        margin: 0 15% 0 15%;
+        max-width: 800px;
+        color: #000000;
+        border-style: inset;
+        border-width: 3px;
+        border-color: black;
+        width: 70%;
+    }
+    .button{
+        color: #fff;
+        font-size: 30px;
+        padding: 15px 30px;
+        background-color: rgb(115, 15, 15);
+        border-radius: 10px;
+        border: 1px solid;
+        border-color: rgb(255, 0, 0);
+        display:block;
+        margin: 0 auto;
+    }
+    .button:hover{
+        opacity: 0.9;
+        transition: 1s;
+        background-color: rgb(75, 0, 0);
+        font-size: 27px;
+        display: block;
+        margin: 0 auto;
+    }
+    .InputType{
+        font-size: 18px;
+        padding: 10px;
+        text-align: center;
+        background-color: rgb(59, 59, 59);
+        border-radius: 10px;
+        border: 1px solid;
+        border-color: rgb(0, 0, 0);
+        color: #ffffff;
+        width: 500px;
+        display: block;
+        margin: auto;
+    }
+    .container{
+        display: box;
+        border: 3px solid red;
+        padding: 70px;
+        margin: 0 200px;
+        background: rgb(210, 210, 210);
+        box-shadow: 0 -200px 100px -100px rgb(127, 126, 126) inset;
+        animation: background 5s infinite alternate;
+    }
+    @keyframes background{
+        50%{
+            background: rgb(127, 130, 131);
+            box-shadow: 0 -200px 100px -100px rgb(215, 219, 203) inset;
+        }
+    }
+}@media screen and (max-width: 980px){
+    h1 {
+        text-align: center;
+        font-size: 25px;
+        color:rgb(229, 47, 47);
+    }
+    hr {
+        margin: 0 15% 0 15%;
+        max-width: 800px;
+        color: #000000;
+        border-style: inset;
+        border-width: 3px;
+        border-color: black;
+        width: 70%;
+    }
+    .button{
+        color: #fff;
+        font-size: 30px;
+        padding: 15px 30px;
+        background-color: rgb(115, 15, 15);
+        border-radius: 10px;
+        border: 1px solid;
+        border-color: rgb(255, 0, 0);
+        display:block;
+        margin: 0 auto;
+    }
+    .button:hover{
+        opacity: 0.9;
+        transition: 1s;
+        background-color: rgb(75, 0, 0);
+        font-size: 27px;
+        display: block;
+        margin: 0 auto;
+    }
+    .InputType{
+        font-size: 18px;
+        padding: 10px;
+        text-align: center;
+        background-color: rgb(59, 59, 59);
+        border-radius: 10px;
+        border: 1px solid;
+        border-color: rgb(0, 0, 0);
+        color: #ffffff;
+        width: 550px;
+        display: block;
+        margin: auto;
+    }
+    .container{
+        display: box;
+        border: 3px solid red;
+        padding: 70px;
+        margin: 0 100px;
+        background: rgb(210, 210, 210);
+        box-shadow: 0 -200px 100px -100px rgb(127, 126, 126) inset;
+        animation: background 5s infinite alternate;
+    }
+    @keyframes background{
+        50%{
+            background: rgb(127, 130, 131);
+            box-shadow: 0 -200px 100px -100px rgb(215, 219, 203) inset;
+        }
+    }
+}
+@media screen and (max-width:725px){
+    h1 {
+        text-align: center;
+        font-size: 25px;
+        color:rgb(229, 47, 47);
+    }
+    hr {
+        margin: 0 15% 0 15%;
+        max-width: 800px;
+        color: #000000;
+        border-style: inset;
+        border-width: 3px;
+        border-color: black;
+        width: 70%;
+    }
+    .center{
+        text-align: center;
+    }
+    .button{
+        color: #fff;
+        font-size: 25px;
+        padding: 10px 20px;
+        background-color: rgb(115, 15, 15);
+        border-radius: 10px;
+        border: 1px solid;
+        border-color: rgb(255, 0, 0);
+        display:block;
+        margin: 0 auto;
+    }
+    .button:hover{
+        opacity: 0.9;
+        transition: 1s;
+        background-color: rgb(75, 0, 0);
+        font-size: 27px;
+        display: block;
+        margin: 0 auto;
+    }
+    .InputType{
+        font-size: 25px;
+        padding: 16px;
+        text-align: center;
+        background-color: rgb(59, 59, 59);
+        border-radius: 10px;
+        border: 1px solid;
+        border-color: rgb(0, 0, 0);
+        color: #ffffff;
+        width: 300px;
+        display: block;
+        margin: auto;
+    }
+    .container{
+        display: box;
+        border: 3px solid red;
+        padding: 50px;
+        margin: 0 100px;
+        background: rgb(210, 210, 210);
+        box-shadow: 0 -200px 100px -100px rgb(127, 126, 126) inset;
+        animation: background 5s infinite alternate;
+    }
+    @keyframes background{
+        50%{
+            background: rgb(127, 130, 131);
+            box-shadow: 0 -200px 100px -100px rgb(215, 219, 203) inset;
+        }
+    }
+}

@@ -1,0 +1,141 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: black;    
+}
+.Text{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+}
+.div{
+    display:inline-block;
+    margin: 10px 200px;
+    color: white;
+    font-size: 30px;
+    width: 100px;
+    text-align: center;
+    font-weight: bold;
+}
+.button{
+    color: #fff;
+    font-size: 30px;
+    padding: 15px 30px;
+    background-color: rgb(115, 15, 15);
+    border-radius: 10px;
+    border: 1px solid;
+    border-color: rgb(255, 0, 0);
+    display: inline-block;
+    margin: 10px 20px;
+}
+.button:hover{
+    opacity: 0.9;
+    transition: 1s;
+    background-color: rgb(75, 0, 0);
+    font-size: 27px;
+}
+@media screen and (max-width: 1700px){
+    .imgg{
+        width: 400px;
+        margin-top: 80px;
+    }
+    .imgC{
+        width: 250px;
+        margin-top: 80px;
+    }
+}
+@media screen and (max-width: 1700px){
+    .imgg{
+        width: 400px;
+        margin-top: 80px;
+    }
+    .imgC{
+        width: 250px;
+        margin-top: 80px;
+    }
+}
+@media screen and (max-width: 1400px){
+    .imgg{
+        width: 350px;
+    }
+    .imgC{
+        width: 230px;
+        margin-top: 80px;
+    }
+}
+@media screen and (max-width:1250px){
+    .imgg{
+        width: 280px;
+    }
+    .imgC{
+        width: 210px;
+        margin-top: 80px;
+    }
+    .div{
+        display:inline-block;
+        margin: 10px 100px;
+        color: white;
+        font-size: 30px;
+        width: 100px;
+        text-align: center;
+        font-weight: bold;
+    }
+}
+@media screen and (max-width: 1100px){
+    .imgg{
+        width: 240px;
+    }
+    .imgC{
+        width: 180px;
+        margin-top: 80px;
+    }
+    .div{
+        display:inline-block;
+        margin: 10px 70px;
+        color: white;
+        font-size: 20px;
+        width: 100px;
+        text-align: center;
+        font-weight: bold;
+    }
+}
+@media screen and (max-width: 930px){
+    .imgg{
+        width: 220px;
+    }
+    .imgC{
+        width: 150px;
+        margin-top: 80px;
+    }
+    .div{
+        display:inline-block;
+        margin: 10px 50px;
+        color: white;
+        font-size: 15px;
+        width: 100px;
+        text-align: center;
+        font-weight: bold;
+    }
+}
+@media screen and (max-width: 820px){
+    .imgg{
+        width: 180px;
+    }
+    .imgC{
+        width: 110px;
+        margin-top: 80px;
+    }
+    .div{
+        display:inline-block;
+        margin: 10px 50px;
+        color: white;
+        font-size: 13px;
+        width: 100px;
+        text-align: center;
+        font-weight: bold;
+    }
+}

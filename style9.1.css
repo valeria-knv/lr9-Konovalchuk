@@ -1,0 +1,108 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: black;    
+}
+.imgg:hover{
+    box-shadow: 0 0 20px red;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+}
+@media screen and (max-width: 1700px){
+    h1 {
+        text-align: center;
+        font-size: 45px;
+        color:rgb(252, 252, 252);
+    }
+    hr {
+        margin: 0 25% 0 25%;
+        max-width: 800px;
+        color: #ffffff;
+        border-style: inset;
+        border-width: 3px;
+        border-color: rgb(211, 211, 211);
+        width: 70%;
+    }
+    .imgg{
+        width: 510px;
+        display: inline-block;
+        margin: 10px 5ox;
+    }
+}
+@media screen and (max-width: 1400px){
+    h1 {
+        text-align: center;
+        font-size: 30px;
+        color:rgb(252, 252, 252);
+    }
+    hr {
+        margin: 0 25% 0 25%;
+        max-width: 800px;
+        color: #ffffff;
+        border-style: inset;
+        border-width: 3px;
+        border-color: rgb(211, 211, 211);
+        width: 50%;
+    }
+    .imgg{
+        width: 435px;
+    }
+}
+@media screen and (max-width: 1280px){
+    h1 {
+        text-align: center;
+        font-size: 45px;
+        color:rgb(252, 252, 252);
+    }
+    hr {
+        margin: 0 25% 0 25%;
+        max-width: 800px;
+        color: #ffffff;
+        border-style: inset;
+        border-width: 3px;
+        border-color: rgb(211, 211, 211);
+        width: 50%;
+    }
+    .imgg{
+        width: 320px;
+    }
+}
+@media screen and (max-width:980px){
+    h1 {
+        text-align: center;
+        font-size: 30px;
+        color:rgb(252, 252, 252);
+    }
+    hr {
+        margin: 0 25% 0 25%;
+        max-width: 800px;
+        color: #ffffff;
+        border-style: inset;
+        border-width: 3px;
+        border-color: rgb(211, 211, 211);
+        width: 50%;
+    }
+    .imgg{
+        width: 250px;
+    }
+}
+@media screen and (max-width: 725px){
+    h1 {
+        text-align: center;
+        font-size: 20px;
+        color:rgb(252, 252, 252);
+    }
+    hr {
+        margin: 0 25% 0 25%;
+        max-width: 800px;
+        color: #ffffff;
+        border-style: inset;
+        border-width: 3px;
+        border-color: rgb(211, 211, 211);
+        width: 50%;
+    }
+    .imgg{
+        width: 200px;
+    }
+}
